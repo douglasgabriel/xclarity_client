@@ -63,3 +63,8 @@ require 'xclarity_client/discovery'
 require 'xclarity_client/discovery_management'
 require 'xclarity_client/unmanage_request'
 require 'xclarity_client/unmanage_request_management'
+
+# New API
+
+# require 'api/endpoints/nodes/nodes'
+# Dir["api/endpoints/**/*.rb"].each {|file| require file }
