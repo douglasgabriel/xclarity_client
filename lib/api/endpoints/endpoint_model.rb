@@ -1,5 +1,16 @@
 module XClarityClient
-  module Resource
+  #
+  # Abstract class that provides common methods for endpoints models
+  #
+  # @abstract
+  #
+  class EndpointModel
+    def initialize(attributes)
+      build_resource(attributes)
+    end
+
+    private
+
     def build_resource(attributes)
       attributes.each do |key, value|
         begin
